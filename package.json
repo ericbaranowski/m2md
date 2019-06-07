@@ -1,0 +1,32 @@
+{
+  "name": "m2md",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "description": "Converts Medium posts to Jekyll/Hugo compatible markdown and adds front matter.",
+  "bin": {
+    "m2md": "./index.js"
+  },
+  "author": "Eric Baranowski <eric@kulado.com> (https://github.com/ericbaranowski/)",
+  "homepage": "https://github.com/ericbaranowski/m2md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericbaranowski/m2md"
+  },
+  "keywords": [
+    "medium",
+    "markdown",
+    "html-to-markdown",
+    "medium-to-jekyll",
+    "medium-to-hugo"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "request": "^2.88.0",
+    "to-markdown": "^3.1.1"
+  }
+}
