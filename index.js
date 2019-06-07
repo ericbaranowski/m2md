@@ -59,11 +59,3 @@ function convert(url) {
         });
     });
 };
-
-/*function run(url) {
-    convertFromUrl(url).then(function(markdown) {
-      var filename = url.substring(url.lastIndexOf('/') + 1) + '.md';
-      fs.writeFileSync(filename, markdown);
-      console.log('saved to => %s', filename);
-    });
-  };*/
