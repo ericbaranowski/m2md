@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const Promise = require('bluebird');
 const request = require('request');
